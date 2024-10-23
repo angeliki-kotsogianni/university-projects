@@ -1,12 +1,3 @@
-"""
-    ΑΓΓΕΛΙΚΗ ΚΩΤΣΟΓΙΑΝΝΗ , ΚΛΕΟΠΑΤΡΑ ΠΡΩΙΟΥ , ΑΝΤΩΝΗΣ ΡΟΥΓΓΕΡΗΣ
-
-"""
-
-
-
-
-
 from calendar import monthrange, month_name
 import datetime
 import csv
