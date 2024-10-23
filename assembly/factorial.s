@@ -1,4 +1,3 @@
-# ANGELIKI KOTSOGIANNI 3220103	
 	.text
 	.globl _start
 	
