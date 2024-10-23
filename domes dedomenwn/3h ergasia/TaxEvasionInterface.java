@@ -1,0 +1,23 @@
+import java.io.FileNotFoundException;
+
+
+public interface TaxEvasionInterface {
+
+    void insert(LargeDepositor item);
+    
+    void load(String filename) throws FileNotFoundException;
+    
+    void updateSavings(int AFM, double savings);
+    
+    LargeDepositor searchByAFM(int AFM);
+    
+    List searchByLastName(String last_name);
+    
+    void remove(int AFM);
+    
+    double getMeanSavings();
+    
+    void printΤopLargeDepositors(int k);
+    
+    void printByAFM();
+    }
